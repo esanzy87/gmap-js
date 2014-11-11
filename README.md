@@ -8,9 +8,11 @@ Getting Started
 
 1. Parse your geojson file
 
-ex) in Java
+# How to use in Java(Android) Application
 
-# in GeoDataHelper
+- in GeoDataHelper
+
+```java
 public String getMapParam(String worldID) {
 
   DBHelper dbHelper = new DBHelper(mContext);
@@ -53,10 +55,11 @@ public String getMapParam(String worldID) {
   }
   return null;
 }
-  
+```  
   
 
-# in Application
+- in Application
+
 String mapParam = geodataHelper.getMapParam(worldID);
 
 if(mapParam != null) {
