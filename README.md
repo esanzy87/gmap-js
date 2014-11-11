@@ -60,9 +60,10 @@ public String getMapParam(String worldID) {
 
 - in Application
 
+```
 String mapParam = geodataHelper.getMapParam(worldID);
 
 if(mapParam != null) {
     map.loadUrl("file:///android_asset/map.html" + mapParam);
 }
-
+```
